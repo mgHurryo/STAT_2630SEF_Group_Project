@@ -28,13 +28,13 @@ def main():
     rating_dir = os.path.join(base_dir, "ods爬虫生成", "rating")
     comment_dir = os.path.join(base_dir, "ods爬虫生成", "comment")
     
-    rating_output = os.path.join(base_dir, "data","ODS_Resource_Data", "rating.json")
-    comment_output = os.path.join(base_dir, "data", "ODS_Resource_Data", "comment.json")
+    rating_output = os.path.join(base_dir, "Data","ODS_Resource_Data", "rating.json")
+    comment_output = os.path.join(base_dir, "Data", "ODS_Resource_Data", "comment.json")
     
-    os.makedirs(os.path.join(base_dir, "data", "ODS_Resource_Data"), exist_ok=True)
+    os.makedirs(os.path.join(base_dir, "Data", "ODS_Resource_Data"), exist_ok=True)
     
     print("开始爬取数据...")
-    print(f"输出目录: {os.path.join(base_dir, 'data', 'ODS_Resource_Data')}")
+    print(f"输出目录: {os.path.join(base_dir, 'Data', 'ODS_Resource_Data')}")
     
     success = True
     
