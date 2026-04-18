@@ -121,3 +121,33 @@ data/
 
 4. **View Visualization:**
    Open `04_Visualization/mgHurryo.pbix` in Power BI Desktop
+
+## References
+
+1. **DouBan**.
+2. **Kaggle**.
+3. **Hugging Face**, for spam filtering, toxicity detection, sentiment analysis, and multilingual text embedding models used in this project.
+   - _Titeiko/OTIS-Official-Spam-Model_
+   - _textdetox/xlmr-large-toxicity-classifier-v2_
+   - _mrm8488/bert-tiny-finetuned-sms-spam-detection_
+   - _baptistejamin/xlm-roberta-large-spam_v4_
+   - _nlptown/bert-base-multilingual-uncased-sentiment_
+   - _cardiffnlp/twitter-xlm-roberta-base-sentiment_
+   - _sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2_
+4. **GitHub**, for open-source NLP libraries including jieba, KeyBERT, and SnowNLP; and stopwords-zh library.
+   - _fxsjy/jieba_
+   - _MaartenGr/KeyBERT_
+   - _isnowfy/snownlp_
+5. **DeepSeek API**, for LLM-based arbitration in sentiment analysis.
+   - _Deepseek/deepseek-chat_
+6. **AliYun API**, for LLM-based topic classification and model pool support.
+   - _alibaba/deepseek-v3.2-exp_
+   - _alibaba/kimi-k2.5_
+   - _alibaba/MiniMax-M2.5_
+   - _alibaba/deepseek-v3.1_
+   - _alibaba/qwen-turbo-latest_
+   - _alibaba/qwen-turbo_
+7. **Moonshot API**, for supplementary LLM-based topic classification.
+   - _moonshot/kimi-k2-turbo-preview_
+
+

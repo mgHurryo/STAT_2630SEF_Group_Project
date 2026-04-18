@@ -121,3 +121,32 @@ data/
 
 4. **查看可视化：**
    在 Power BI Desktop 中打开 `04_Visualization/mgHurryo.pbix`
+
+## 参考资料 (References)
+
+1. **DouBan (豆瓣)**.
+2. **Kaggle**.
+3. **Hugging Face**，用于本项目中的垃圾信息过滤、含有害信息指控检测、情感分析以及多语言文本嵌入模型。
+   - _Titeiko/OTIS-Official-Spam-Model_
+   - _textdetox/xlmr-large-toxicity-classifier-v2_
+   - _mrm8488/bert-tiny-finetuned-sms-spam-detection_
+   - _baptistejamin/xlm-roberta-large-spam_v4_
+   - _nlptown/bert-base-multilingual-uncased-sentiment_
+   - _cardiffnlp/twitter-xlm-roberta-base-sentiment_
+   - _sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2_
+4. **GitHub**，用于开源的 NLP 算法库（包括 jieba、KeyBERT 和 SnowNLP）以及 stopwords-zh 中文停用词库。
+   - _fxsjy/jieba_
+   - _MaartenGr/KeyBERT_
+   - _isnowfy/snownlp_
+5. **DeepSeek API**，用于情感分析中基于 LLM 的仲裁判定。
+   - _Deepseek/deepseek-chat_
+6. **AliYun API (阿里云百炼)**，用于基于 LLM 的主题分类和模型池支持。
+   - _alibaba/deepseek-v3.2-exp_
+   - _alibaba/kimi-k2.5_
+   - _alibaba/MiniMax-M2.5_
+   - _alibaba/deepseek-v3.1_
+   - _alibaba/qwen-turbo-latest_
+   - _alibaba/qwen-turbo_
+7. **Moonshot API (月之暗面)**，作为补充用于基于 LLM 的主题分类。
+   - _moonshot/kimi-k2-turbo-preview_
+

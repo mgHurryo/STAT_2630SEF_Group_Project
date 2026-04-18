@@ -214,6 +214,7 @@ final_score = 0.2 * k2 + 0.35 * k3 + 0.45 * k4
 | `deepseek-v3.1` | dashscope.aliyuncs.com | 8 |
 | `qwen-turbo-latest` | dashscope.aliyuncs.com | 8 |
 | `qwen-turbo` | dashscope.aliyuncs.com | 8 |
+| `kimi-k2-turbo-preview` | api.moonshot.cn | 3 |
 
 每个模型配置 `timeout=60s`，`max_retries=3`。
 

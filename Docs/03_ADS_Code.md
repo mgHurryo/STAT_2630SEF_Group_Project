@@ -214,6 +214,7 @@ Multiple LLM APIs are configured with individual settings:
 | `deepseek-v3.1` | dashscope.aliyuncs.com | 8 |
 | `qwen-turbo-latest` | dashscope.aliyuncs.com | 8 |
 | `qwen-turbo` | dashscope.aliyuncs.com | 8 |
+| `kimi-k2-turbo-preview` | api.moonshot.cn | 3 |
 
 Each model has `timeout=60s` and `max_retries=3`.
 
